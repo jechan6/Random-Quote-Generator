@@ -1,0 +1,44 @@
+body {
+  overflow-x: hidden;
+  overflow-y: hidden; 
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-image: url("https://i.imgur.com/za9gZfZh.jpg");
+  background-color: grey;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  
+}
+.container {
+  padding-top: 10em;
+  text-align: center;
+}
+
+#content, #author {
+  color: black;
+  font-family: Helvetica Thin;
+  font-style:italic;
+  font-weight: bold;
+  font-size: 2em;
+}
+button:focus {
+  outline: 0 !important;
+}
+#quoteButton, #tweetButton {
+  font-weight:bold !important;
+  border-style:solid;
+  border-color:black;
+  font-family: Helvetica Thin;
+  background-color: rgba(0,0,0,.1);
+  margin-top: 4em; 
+
+}
+#tweetButton {
+  margin-left: 5em;
+}
+.btn-primary {
+  color: white;
+}
+
